@@ -6,6 +6,9 @@
 
  * Expectation:
     Script will return error messages generated and saved in cron jobs' error files, along with file name in a string. This string should be mailed and worked on priority.
+
+    Usage:
+        Add to crontab and pipe result to mail
  */
 
 function fetch_file_errors($line) {
